@@ -18,7 +18,8 @@ export const Loginuser = () => {
   const handleSubmit = (e) => {
       e.preventDefault();
       axios.post("http://localhost:2345/login", formData)
-          .then((res) =>
+        .then((res) =>
+            alert("successfully logged in"),
               navigate("/Home")).catch((err) => console.log(err))
   }
 

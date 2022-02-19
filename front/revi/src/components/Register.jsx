@@ -16,7 +16,8 @@ export const Register = () => {
   const handleSubmit =  (e) => {
       e.preventDefault();
       axios.post("http://localhost:2345/register", formData)
-          .then((res) =>
+        .then((res) =>
+            alert("successfully registered"),
               navigate("/login")).catch((err) => console.log(err))
   };
   return (
