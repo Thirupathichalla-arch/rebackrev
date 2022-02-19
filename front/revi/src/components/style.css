@@ -1,0 +1,35 @@
+*{
+ width: 100%;
+}
+body{
+    background-color: rgb(129, 166, 187);
+}
+label{
+    font-size:20px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dom{
+    border: 1px solid #f1eeea;
+    padding:10px;
+    margin-bottom:10px;
+    width:50%
+
+}
+.dom{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin:auto;
+
+}
+.dom:hover{
+    box-shadow:20px;
+    transition: all 0;
+    border-radius: 10px;
+    background-color:rgb(6, 70, 25);
+}
+p{
+    color:#111111e7;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
